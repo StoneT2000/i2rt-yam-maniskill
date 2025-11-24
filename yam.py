@@ -1,5 +1,5 @@
 import sapien
-from mani_skill import ASSET_DIR, PACKAGE_ASSET_DIR
+from mani_skill import ASSET_DIR
 from mani_skill.agents.base_agent import BaseAgent, Keyframe
 from mani_skill.agents.controllers import *
 from mani_skill.agents.registration import register_agent

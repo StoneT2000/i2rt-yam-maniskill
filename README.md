@@ -16,3 +16,4 @@ Converted initially to a URDF file via https://github.com/Yasu31/mjcf_urdf_simpl
 Then the following modifications are made
 - Change the incorrectly labelled fixed joints to prismatic, and add missing axes and limits definitions
 - Add mimic joint tags between the left and right fingers
+- Removed unnecessary fixed joints
