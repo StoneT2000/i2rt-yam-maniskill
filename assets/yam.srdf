@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<robot name="i2rt_yam">
+    <disable_collisions link1="arm" link2="link_2" reason="Default"/>
+    <disable_collisions link1="link_1" link2="link_3" reason="Default"/>
+    <disable_collisions link1="link_1" link2="link_4" reason="Default"/>
+    <disable_collisions link1="link_2" link2="link_4" reason="Default"/>
+    <disable_collisions link1="link_3" link2="link_5" reason="Default"/>
+    <disable_collisions link1="link_3" link2="link_6" reason="Default"/>
+    <disable_collisions link1="link_4" link2="link_6" reason="Default"/>
+    <disable_collisions link1="link_left_finger" link2="link_right_finger" reason="Default"/>
+</robot>
