@@ -12,7 +12,7 @@
          <!-- z-value was originally 0.01154286287615687 -->
          <origin xyz="-2.0738360577213484e-05 2.041311002275178e-05 0.023085726" rpy="1.5701130102263443 0.005344186766800929 -3.1414365496107033"/>
          <geometry>
-            <mesh filename="meshes/converted_model2_404040ff.obj"/>
+            <mesh filename="meshes/arm.obj"/>
          </geometry>
       </visual>
       <collision name="arm_collision">
@@ -31,13 +31,13 @@
       <visual name="link_1_visual">
          <origin xyz="0.0007117901440024366 -0.008267794027987337 0.022250179687008112" rpy="1.5650454550240567 -0.6317582807873866 1.5710673633815686"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__2_404040ff.obj"/>
+            <mesh filename="meshes/link_1.obj"/>
          </geometry>
       </visual>
       <collision name="link_1_collision">
          <origin xyz="0.0007117901440024366 -0.008267794027987337 0.022250179687008112" rpy="1.5650454550240567 -0.6317582807873866 1.5710673633815686"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__2_404040ff.obj"/>
+            <mesh filename="meshes/link_1.obj"/>
          </geometry>
       </collision>
    </link>
@@ -57,37 +57,37 @@
       <visual name="link_2_visual_1">
          <origin xyz="0.26007948449650414 2.5977632368834325e-07 0.00022869283697025413" rpy="0.0012886015838013964 0.0 1.5707963267948966"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__3_404040ff.obj"/>
+            <mesh filename="meshes/link_2_1.obj"/>
          </geometry>
       </visual>
       <visual name="link_2_visual_2">
          <origin xyz="0.003920561027152974 2.5977629421192194e-07 0.00022869282878015162" rpy="-0.0012886020855807923 0.0 1.5707963267948966"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__4_404040ff.obj"/>
+            <mesh filename="meshes/link_2_2.obj"/>
          </geometry>
       </visual>
       <visual name="link_2_visual_3">
          <origin xyz="0.1320117461361114 -1.306943646950387e-05 9.079293692478702e-08" rpy="1.5720341600620278 -1.5679213575591913 -1.5720413321414013"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__5_e6e6e6ff.obj"/>
+            <mesh filename="meshes/link_2_3.obj"/>
          </geometry>
       </visual>
       <collision name="link_2_collision_1">
          <origin xyz="0.26007948449650414 2.5977632368834325e-07 0.00022869283697025413" rpy="0.0012886015838013964 0.0 1.5707963267948966"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__3_404040ff.obj"/>
+            <mesh filename="meshes/link_2_1.obj"/>
          </geometry>
       </collision>
       <collision name="link_2_collision_2">
          <origin xyz="0.003920561027152974 2.5977629421192194e-07 0.00022869282878015162" rpy="-0.0012886020855807923 0.0 1.5707963267948966"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__4_404040ff.obj"/>
+            <mesh filename="meshes/link_2_2.obj"/>
          </geometry>
       </collision>
       <collision name="link_2_collision_3">
          <origin xyz="0.1320117461361114 -1.306943646950387e-05 9.079293692478702e-08" rpy="1.5720341600620278 -1.5679213575591913 -1.5720413321414013"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__5_e6e6e6ff.obj"/>
+            <mesh filename="meshes/link_2_3.obj"/>
          </geometry>
       </collision>
    </link>
@@ -107,49 +107,49 @@
       <visual name="link_3_visual_1">
          <origin xyz="-0.24063976713274154 -0.059999782142154706 -0.003760273578300405" rpy="3.0364915071378875 0.0 -1.570796326794897"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__6_404040ff.obj"/>
+            <mesh filename="meshes/link_3_1.obj"/>
          </geometry>
       </visual>
       <visual name="link_3_visual_2">
          <origin xyz="-0.007710009148021196 -0.03486048010433765 0.0347071645682882" rpy="-2.8787900674372295 1.4720957652931412 1.6013719605643308"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__7_404040ff.obj"/>
+            <mesh filename="meshes/link_3_2.obj"/>
          </geometry>
       </visual>
       <visual name="link_3_visual_3">
          <origin xyz="-0.1206720859561709 -0.06001334031535149 5.408345552423209e-07" rpy="1.5707945314613085 0.0026832997041226214 -1.570809065297576"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__8_e6e6e6ff.obj"/>
+            <mesh filename="meshes/link_3_3.obj"/>
          </geometry>
       </visual>
       <visual name="link_3_visual_4">
          <origin xyz="-0.008240431625057998 -0.03737256683266851 -0.033699619180835645" rpy="0.2883614312261503 1.443690062944694 -1.515041718980295"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__9_404040ff.obj"/>
+            <mesh filename="meshes/link_3_4.obj"/>
          </geometry>
       </visual>
       <collision name="link_3_collision_1">
          <origin xyz="-0.24063976713274154 -0.059999782142154706 -0.003760273578300405" rpy="3.0364915071378875 0.0 -1.570796326794897"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__6_404040ff.obj"/>
+            <mesh filename="meshes/link_3_1.obj"/>
          </geometry>
       </collision>
       <collision name="link_3_collision_2">
          <origin xyz="-0.007710009148021196 -0.03486048010433765 0.0347071645682882" rpy="-2.8787900674372295 1.4720957652931412 1.6013719605643308"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__7_404040ff.obj"/>
+            <mesh filename="meshes/link_3_2.obj"/>
          </geometry>
       </collision>
       <collision name="link_3_collision_3">
          <origin xyz="-0.1206720859561709 -0.06001334031535149 5.408345552423209e-07" rpy="1.5707945314613085 0.0026832997041226214 -1.570809065297576"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__8_e6e6e6ff.obj"/>
+            <mesh filename="meshes/link_3_3.obj"/>
          </geometry>
       </collision>
       <collision name="link_3_collision_4">
          <origin xyz="-0.008240431625057998 -0.03737256683266851 -0.033699619180835645" rpy="0.2883614312261503 1.443690062944694 -1.515041718980295"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__9_404040ff.obj"/>
+            <mesh filename="meshes/link_3_4.obj"/>
          </geometry>
       </collision>
    </link>
@@ -169,7 +169,7 @@
       <visual name="link_4_visual">
          <origin xyz="-0.046776068687813616 -0.038270471745625256 -0.0008915243508352188" rpy="1.5394854457020646 0.021662003917253037 -0.7117475435376934"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__10_404040ff.obj"/>
+            <mesh filename="meshes/link_4.obj"/>
          </geometry>
       </visual>
       <collision name="link_4_collision">
@@ -195,7 +195,7 @@
       <visual name="link_5_visual">
          <origin xyz="5.815639855540116e-05 -0.0005553836621680353 0.03206235288381598" rpy="2.67318045036048 0.0016544870659682687 -0.011529382184967352"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__11_404040ff.obj"/>
+            <mesh filename="meshes/link_5.obj"/>
          </geometry>
       </visual>
       <collision name="link_5_collision">
@@ -221,13 +221,13 @@
       <visual name="link_6_visual">
          <origin xyz="8.788302043375991e-05 0.0001190912220788709 0.05116721790419726" rpy="-1.745366888758472 1.5654909718508199 -1.969912540567698"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__12_404040ff.obj"/>
+            <mesh filename="meshes/link_6_1.obj"/>
          </geometry>
       </visual>
       <visual name="link_6_visual">
          <origin xyz="-0.00017825474995774047 1.6195054943213272e-05 0.03422382038141725" rpy="-1.5799559470247644 0.8170286688385331 -0.14641337505452368"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__13_404040ff.obj"/>
+            <mesh filename="meshes/link_6_2.obj"/>
          </geometry>
       </visual>
       <collision name="link_6_collision">
@@ -264,25 +264,25 @@
       <visual name="link_left_finger_visual_1">
          <origin xyz="-0.02621919095860112 -0.050961301789609365 0.04847966761952425" rpy="1.2436149090470108 -1.3351755324428625 3.1192068678405445"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__14_404040ff.obj"/>
+            <mesh filename="meshes/link_left_finger_1.obj"/>
          </geometry>
       </visual>
       <visual name="link_left_finger_visual_2">
          <origin xyz="-0.0018267628293356375 -0.014013453565219658 0.02860778296204746" rpy="-0.08499655397451025 -0.08210615684708134 0.012014286826329143"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__15_404040ff.obj"/>
+            <mesh filename="meshes/link_left_finger_2.obj"/>
          </geometry>
       </visual>
       <collision name="link_left_finger_collision_1">
          <origin xyz="-0.02621919095860112 -0.050961301789609365 0.04847966761952425" rpy="1.2436149090470108 -1.3351755324428625 3.1192068678405445"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__14_404040ff.obj"/>
+            <mesh filename="meshes/link_left_finger_1.obj"/>
          </geometry>
       </collision>
       <collision name="link_left_finger_collision_2">
          <origin xyz="-0.0018267628293356375 -0.014013453565219658 0.02860778296204746" rpy="-0.08499655397451025 -0.08210615684708134 0.012014286826329143"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__15_404040ff.obj"/>
+            <mesh filename="meshes/link_left_finger_2.obj"/>
          </geometry>
       </collision>
    </link>
@@ -302,25 +302,25 @@
       <visual name="link_right_finger_visual_1">
          <origin xyz="-0.001826763203738313 0.014013021507929144 -0.02860778467768097" rpy="-0.08499624911644796 0.08210615585822456 -0.012014239544932075"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__16_404040ff.obj"/>
+            <mesh filename="meshes/link_right_finger_1.obj"/>
          </geometry>
       </visual>
       <visual name="link_right_finger_visual_2">
          <origin xyz="-0.026152342123741346 0.026813733867866105 -0.04844908896546901" rpy="-1.8906094630983064 -1.3387155199773018 -0.013733131456833414"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__17_404040ff.obj"/>
+            <mesh filename="meshes/link_right_finger_2.obj"/>
          </geometry>
       </visual>
       <collision name="link_right_finger_collision_1">
          <origin xyz="-0.001826763203738313 0.014013021507929144 -0.02860778467768097" rpy="-0.08499624911644796 0.08210615585822456 -0.012014239544932075"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__16_404040ff.obj"/>
+            <mesh filename="meshes/link_right_finger_1.obj"/>
          </geometry>
       </collision>
       <collision name="link_right_finger_collision_2">
          <origin xyz="-0.026152342123741346 0.026813733867866105 -0.04844908896546901" rpy="-1.8906094630983064 -1.3387155199773018 -0.013733131456833414"/>
          <geometry>
-            <mesh filename="meshes/converted_model2__17_404040ff.obj"/>
+            <mesh filename="meshes/link_right_finger_2.obj"/>
          </geometry>
       </collision>
    </link>
